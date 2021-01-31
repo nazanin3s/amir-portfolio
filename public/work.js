@@ -3,11 +3,12 @@ $('.owl-carousel').owlCarousel({
     loop:(document.documentElement.scrollWidth> 500),
     margin:46,
     nav:false,
+     dots: false,
     items:3,
     rewind: true,
     center:true,
     autoWidth:true,
-    URLhashListener: true,
+    // URLhashListener: true,
   startPosition: 'URLHash',
   responsive:{
         0:{
@@ -72,3 +73,17 @@ $(".work img").css({"width": "calc(100vw - 40%)", "position":"relative", "margin
 $(".work div").addClass("notrans");
 
 }
+// var uRl = window.location.hash;
+// var pImages = $("div img");
+// var myHash = $(".owl-carousel div.center div");
+
+
+// $(window).scroll(function(){
+  // console.log(uRl);
+  // for(i=0 ; i<myHash.length; ++i){
+  // window.history.replaceState(uRl,"Amir Mohseni | Project 1","bb");
+  // var myHas = $(h).attr("data-has");
+// };
+var imageID = $("div[data-hash]");
+console.log($(imageID[0]));
+// window.location.replace( baseUrl + '#' + imageID );

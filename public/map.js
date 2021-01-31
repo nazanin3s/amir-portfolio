@@ -2,6 +2,7 @@ function initMap(){
   var Opts= {
     zoom:14 ,
     center: {lat:50.440592, lng: 30.505694},
+     disableDefaultUI: true,
     mapId: '677855c796540969'
   }
   var map = new google.maps.Map(

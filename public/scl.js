@@ -13,7 +13,7 @@ gsap.from(".li1", {
     end: "top 46",
     toggleActions: "play none reverse none",
     onEnter: () => gsap.to(window, {
-      scrollTo: {y: ".li1", autoKill: false, offsetY:46},
+      scrollTo: {y: ".li1", autoKill: true, offsetY:46},
       duration: .6
     })}
   });

@@ -450,6 +450,9 @@ div.con-img{
         border-radius: 5px;
         font-weight: 300;
   }
+  .timer img{width:7px; margin-right:5px; margin-top:-2px;}
+  .timer p.backbtn{font-size: 15px; display:contents; letter-spacing: .5px; }
+  .timer .backbtn {cursor: pointer;}
 @media screen  and (max-width:992px){
   .collapse{
     top: 45px;
@@ -534,12 +537,12 @@ div.con-img{
     }
     #Projects div h1, #modelings div h1, #renders div h1{font-size: 32px;}
     #Projects  h2, #modelings  h2, #renders  h2{font-size: 15px;}
-    .copyrights, #websiteFrameRight img,#websiteFrameLeft .social-icons,.disc,.timer{visibility:hidden;}
+    .copyrights, #websiteFrameRight img,#websiteFrameLeft .social-icons,.disc,.timer{visibility:hidden; display: none;}
     .navbar-light .navbar-brand {margin-left:0%; left:0;}
     .navbar.myNav{padding:6px 6%;}
-    .social-icons {top: -5px;
+    .social-icons {top: 3px;
     left: 0;
-  margin-top:-35px;}
+  /* margin-top:-35px;*/}
     .social-icons .nav-link{display: inline-block;
     padding: .5rem 1.3rem;}
     .social-icons a:nth-child(2n) img{height:17px;}
@@ -560,7 +563,7 @@ div.con-img{
     .abtxt{font-size:18px;} #modelings .abtxt h2{font-size:18px; text-align: center;margin-bottom: 20px;line-height: 1.4;}
     #modelings .abtxt h1{font-size:32px;margin-bottom: 15px;margin-top: 10px;}
 #modelings .abtxt h3{font-size: 40px; margin-top:15px!important; margin-bottom: 28px;}
-.myform {top: 30vh;
+.myform {top: auto; bottom:13vh;
     left: calc(50% - 145px); width:290px;z-index:0; padding: 25px 35px; border-radius: 30px;} .myform h4{font-weight: 700; font-size: 28px!important; margin-bottom: 2.5vh;}
 #map{width: calc(100vw - 13%);
     height: calc(100vh - 95px);}
