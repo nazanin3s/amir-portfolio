@@ -24,7 +24,7 @@ app.get("/rendering", function(req, res) {
 });
 
 app.get("/renderings", function(req, res) {
-  res.sendFile(__dirname + "/renderings.HTML");
+  res.sendFile(__dirname + "/renderings.html");
 });
 
 app.get("/vr360", function(req, res) {
